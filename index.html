@@ -93,25 +93,27 @@ header {
   --bg-color-light: #f0e7ff;
   --text-color-hover: #fff;
   --box-shadow-color: rgba(206, 178, 252, 0.48);
-  left: 750px;
-  bottom: 500px;
+  /* left: 750px;
+  bottom: 500px; */
+  align-items: center;
+
 }
 
-
 .card {
-  width: 600px;
-  height: 321px;
+  margin-top: 20px;
+  margin-left: 300px;
+  height: 175px;
+  width: 880px;
   background: #7fadd6;
   border-radius: 80px;
   border-color: #000000;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
-  transition: all 0.3s ease-out;
+  /* position: relative; */
+  /* /* box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04); */
+  transition: all 0.3s ease-out; 
 }
 
 .card:hover {
@@ -176,18 +178,6 @@ header {
 .circle svg {
   z-index: 0;
   transform: translateZ(0);
-}
-
-.overlay {
-  width: 400px;
-  position: absolute;
-  height: 118px;
-  border-radius: 50%;
-  background: var(--bg-color);
-  top: 55px;
-  right: 100px;
-  transition: transform 0.3s ease-out;
-  z-index: 0;
 }
 
 
@@ -380,7 +370,7 @@ Promo Section "Statistics"
 </div> -->
 
 <!-- Work Section -->
-<div class="w3-container" style="padding:20px 200px; background-color:#e2efff" id="work">
+<div class="w3-container" style="padding:20px 575px; background-color:#e2efff" id="work">
   <h3 class="w3-center">Current Opportunities</h3>
   <div style="display: flex; justify-content: space-between; background-color:#e6f1ff">
           <!-- <div class="display-right" style="height: 50px; right: 400px; top: 135px;"> -->
@@ -475,7 +465,7 @@ Promo Section "Statistics"
 
 
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+<div class="w3-container w3-light-grey" style="padding:20px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Email us!</p>
   <div style="margin-top:48px">
@@ -507,6 +497,7 @@ Promo Section "Statistics"
 
   </div>
  <!-- <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p> -->
+ <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">Start now</a>
 </footer>
  
 <script>
@@ -545,4 +536,3 @@ function startAnimation() {
 
 </body>
 </html>
-
